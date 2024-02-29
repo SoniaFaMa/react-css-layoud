@@ -1,6 +1,5 @@
 .container-body{
     display: flex;
-    background-color: aquamarine;
     height: 100vh;
     justify-content: center;
     flex-wrap: wrap;
