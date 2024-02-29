@@ -6,6 +6,8 @@ import './footer.css'
 
 import Main from './Main';
 import Sidebar from './Sidebar'
+import Footer from './Footer';
+
 
 function App() {
   return (
@@ -22,19 +24,7 @@ function App() {
   );
 }
 
-function Footer(){
 
-  return(
-
-    <div className='footer'>
-      <p>Footer</p>
-    </div>
-
-
-  )
-
-
-}
 export default App;
 
 
