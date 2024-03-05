@@ -1,12 +1,10 @@
 
 import './App.css';
-import './main.css'
-import './sidebar.css'
-import './footer.css'
+import './Complements/Main&Footer/main&sidebar.css'
+import './Complements/Footer/footer.css'
 
-import Main from './Main';
-import Sidebar from './Sidebar'
-import Footer from './Footer';
+import Main from './Complements/Main&Footer/Main&Sidebar';
+import Footer from './Complements/Footer/Footer';
 
 
 function App() {
@@ -17,7 +15,7 @@ function App() {
 
       <p>Header</p>
       </div>
-      <Main/><Sidebar/>
+      <Main/>
       <Footer/>
       </div>
       

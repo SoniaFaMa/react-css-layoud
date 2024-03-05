@@ -1,6 +1,10 @@
 export default function Main(){
 
     return(
+
+    <div className="general-container"> 
+
+
     <div className='container-main'>
       <p>Main</p>
   
@@ -23,8 +27,14 @@ export default function Main(){
     <div className='item'>item</div>
     <div className='item'>item</div>
     <div className='item'>item</div>
+
+    </div>
+
+    <div className='container-sidebar'>
+        <p>Sidebar</p>
+      </div>
     
-  
+
     </div>
     )
     
